@@ -1,4 +1,10 @@
-# Generate new ssh keys and integrate_ssh_keys_with_github account
+# Generate new ssh keys and integrate_ssh_keys_with_github account and some other usefule command 
+
+MySQL Error: : 'Access denied for user 'root'@'localhost'
+1-  sudo mysql -u root
+then
+2- ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
+then exit and create your db.
 
 
 ls -al ~/.ssh
