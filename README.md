@@ -6,7 +6,12 @@ then
 2- ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password BY 'root';
 then exit and create your db.
 
-
+[
+Restoring a database dump to a MySQL
+  mysql -u root -p -h localhost databasename < /home/furqan/Documents/databasename.sql
+Restoring a database dump to a POSTGRESQL
+  psql -U azan -d databasename < /home/furqan/Downloads/databasename.pgsql
+]
 ls -al ~/.ssh
 git config --global user.name "username"
 git config --global user.name
